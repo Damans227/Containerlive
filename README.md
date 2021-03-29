@@ -10,7 +10,7 @@
 2. On a local computer where you have a docker runtime installed, clone this repository and go to `Deployment` folder. 
 3. Now, run the following docker commands one by one:<br />
    a) `docker build -t containerlive-webapp .`<br />
-   b) `docker container run --name container -dt -p 8091:8080 containerlive-webapp`<br />
+   b) `docker container run --name container -dt -p 8090:8080 containerlive-webapp`<br />
 4. The application should be up and running now on the following `URL: http://localhost:8090/containerlive/`
 
 
