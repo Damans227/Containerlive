@@ -1,6 +1,8 @@
 # Containerlive
 
- Containerlive is a simple application for managing Docker containers on Mac, Linux and Windows. It is an open source project built as a management solution for Docker. It consists of a web UI that allows you to easily manage your Docker containers, images so far. Containerlive makes use of the Docker API to handle its interactions and monitoring of Docker Containers and Images.
+ Containerlive is a simple application for managing `Docker Containers` on Mac, Linux and Windows. It is an open source project built as a management solution for Docker. It consists of a web UI that allows you to easily manage your Docker Containers and Images, so far. Containerlive, makes use of the [Docker API][DockerJava] to handle its interactions and monitoring of Docker Containers and Images.
+
+ [DockerJava]: https://github.com/docker-java/docker-java
 
 ## How to run the application
 
@@ -12,7 +14,7 @@
 4. The application should be up and running now on the following `URL: http://localhost:8090/containerlive/`
 
 
- ## How to use Stockquote
+ ## How to use Containerlive
 
  1. Click inside the text box on far left at the top of the page, where it says <i>'Enter ticker symbol'</i>.
  2.  Enter a valid ticker symbol, such as 'GOOG' and hit Search. 
