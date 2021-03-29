@@ -16,13 +16,16 @@
 
  ## How to use Containerlive
 
- <blockquote><i><b>Important Note:</b> In order to run this app, you will have to configure your Docker Host o accept incoming traffic on the TCP layer on a certain port. Typically, the port that is used for this purpose is 2375 or 2376.</i> </blockquote>
+ <blockquote><i><b>Important Note:</b> In order to run this app, you will have to configure your Docker Host to accept incoming TCP traffic on a certain port. Typically, the port that is used for this purpose is 2375 or 2376.</i> </blockquote>
 
- 1. Click inside the text box on far left at the top of the page, where it says <i>'Enter ticker symbol'</i>.
- 2.  Enter a valid ticker symbol, such as 'GOOG' and hit Search. 
- 3.  You will see the current price of the stock under 'Stock Details' section. 
- 4.  On the far right of stock details section, click on 'Quick History' in green color to view the historical data of the stock. 
- 5.  Similarly, you can look up Weekly and Monthly details of a given stock as well. In order to dos so, simply click on the button called "Advanced Search" on the top right corner. 
+ 1.  Open command line on your system, and allow incoming traffic on a TCP port configured in the Docker Host to connect with the Docker-API. Our app connects with Dockers built in API using this port. On a MAC system, you would run following command to do so: 
+
+`socat -d -d TCP-L:2375,fork UNIX:/var/run/docker.sock`
+
+ 2.  Launch the application in your favorite browser using the URL: `http://localhost:8090/containerlive/`
+ 3.  Under Configuration, Enter the details for 'Docker Host', 'Docker Port', and 'Enable TLS'. Once, configured successfully, app will display all the saved images and Containers from your Docker Host. 
+ 4.  Now, you can pull a new Image from Docker Hub using 'Pull an image section' of the app. If you leave 'Image Tag' empty, the app by default pulls the latest image. 
+ 5.  Now, that you have your image pulled, you can either Create a new container, Start an existing container or Stop and existing Container by simply passing in the container Id as the input in the bottom section of the app. 
 
  ## User Stories
 
