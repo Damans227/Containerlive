@@ -29,25 +29,29 @@
 
  ## User Stories
 
- - A user can find the current price of any given stock. 
- - A user can view Weekly/ Monthly historical data of a stock. 
+ - A user can pull images from Dockerhub.io to their local repo.
+ - A user Create a new container off of an image available in their local repo.  
+ - A user can Create, Run and Stop new containers. 
+ - A user can explore the available images. 
+ - A user can list the current status of the containers running on Docker Host.
 
  ## Features
 
- - Easy to understand code which is built following MVC design pattern. 
+ - Easy to understand code which is built following MVC design pattern.
  - Simple and straightforward User Interface. 
  - Can be hosted as a micro-service in a container. Making it easier to deploy the app over cloud. 
 
  ## Future features
 
  - Code refactoring (Minimizing the workload in controllers).
- - Implement auto refresh.
- - Implement user profiles and portfolio management. 
- - Make it small screen compatible.
+ - Implement auto refresh of Image and Container list.
+ - Implement user profiles and enhance security. 
+ - Implement additional modules pertaining to different use cases available in Docker. 
+ - Deploy a separate module for Kubernetes cluster management. 
 
  ## Dependencies 
 
- - Yahoo Finance Java API
+ - Docker-Java API
  - Bootstrap 4
  - JSTL 
  - Enterprise Java
@@ -56,4 +60,5 @@
 
 ## What the app looks like
 
-![screenshot](https://raw.githubusercontent.com/Damans227/Stockquote/main/Screenshots/homescreen.png)
+![screenshot1](https://raw.githubusercontent.com/Damans227/Containerlive/main/screenshots/image1.png)
+![screenshot2](https://raw.githubusercontent.com/Damans227/Containerlive/main/screenshots/image2.png)
