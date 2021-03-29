@@ -16,6 +16,8 @@
 
  ## How to use Containerlive
 
+ <blockquote><b>Important Note:</b> In order to run this app, you will have to configure your Docker Host o accept incoming traffic on the TCP layer on a certain port. Typically, the port that is used for this purpose is 2375 or 2376. </blockquote>
+
  1. Click inside the text box on far left at the top of the page, where it says <i>'Enter ticker symbol'</i>.
  2.  Enter a valid ticker symbol, such as 'GOOG' and hit Search. 
  3.  You will see the current price of the stock under 'Stock Details' section. 
