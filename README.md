@@ -1,6 +1,6 @@
 # Containerlive
 
- Containerlive is a simple application for managing `Docker Containers` on Mac, Linux and Windows. It is an open source project built as a management solution for Docker. It consists of a web UI that allows you to easily manage your Docker Containers and Images, so far. Containerlive, makes use of the [Docker API][DockerJava] to handle its interactions and monitoring of Docker Containers and Images.
+ Containerlive is a simple application for managing `Docker Containers` on Mac, Linux and Windows. It is an open source project built as a management solution for Docker. It consists of a web UI that allows you to easily manage your Docker Containers and Images, so far. Containerlive, makes use of the [Docker-Java API][DockerJava] to handle its interactions and monitoring of Docker Containers and Images.
 
  [DockerJava]: https://github.com/docker-java/docker-java
 
